@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min fina hemsida</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/celtic-knot-triquetra-symbol-celts-symbol-ca55379c6148e2e355c43226b59ed0f6.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">TIPS</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>My Beautiful Website</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Iusto labore ullam tempore</p>
+            <a href="" class="hero-btn">More about the life as a programmer</a>
+        </div>
+    </section>
+
+
+    <!--  Tips-->
+    <section class="tips">
+        <h1>Tips</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id animi eius eos reiciendis, debitis consequuntur
+            dignissimos asperiores ipsum ducimus esse modi alias nihil cumque perferendis impedit molestiae placeat
+            nemo. Voluptas.</p>
+
+        <div class="row">
+            <div class="tips-col">
+                <h3>Dont Know</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate necessitatibus sapiente harum
+                    maxime optio, dolores quasi nulla voluptates quis eius totam quia reiciendis veniam aliquam earum
+                    dolore numquam, quo distinctio.</p>
+            </div>
+            <div class="tips-col">
+                <h3>Do you Know?</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate necessitatibus sapiente harum
+                    maxime optio, dolores quasi nulla voluptates quis eius totam quia reiciendis veniam aliquam earum
+                    dolore numquam, quo distinctio.</p>
+            </div>
+            <div class="tips-col">
+                <h3>What?!</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate necessitatibus sapiente harum
+                    maxime optio, dolores quasi nulla voluptates quis eius totam quia reiciendis veniam aliquam earum
+                    dolore numquam, quo distinctio.</p>
+            </div>
+        </div>
+    </section>
+<hr>
+    <section class="about">
+        <h1>About Me</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quaerat at sit placeat blanditiis ea
+        </p>
+
+        <div class="row">
+            <div class="about-col">
+                <img src="images/taylor-swift-folklore-photoshoot.jpg" alt="">
+                <div class="layer">
+                    <h3>Eleonore</h3>
+                </div>
+                </div>
+                <div class="about-col">
+                    <img src="images/taylor-swift-folklore-photoshoot.jpg" alt="">
+                    <div class="layer">
+                        <h3>Eleonore</h3>
+                    </div>
+                    </div>
+                        <div class="about-col">
+                            <img src="images/taylor-swift-folklore-photoshoot.jpg" alt="">
+                            <div class="layer">
+                                <h3>Eleonore</h3>
+                            </div>
+            </div>
+        </div>
+
+    </section>
+
+<hr>
+    <section class="blog">
+        <h1>My Projects</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt maiores aut fugit eos natus debitis
+            quisquam quas, consequatur quibusdam provident? Doloribus, architecto deserunt unde laudantium nihil numquam
+            illo non.</p>
+
+        <div class="row">
+            <div class="blog-col">
+                <img src="images/pexels-julien-brion-102061.jpg" alt="">
+                <h3>My Knowledge</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quae eos illo numquam a unde, impedit
+                    voluptate consequuntur iste libero provident tempora accusamus laborum harum placeat beatae
+                    voluptatem velit architecto!</p>
+            </div>
+            <div class="blog-col">
+                <img src="images/sincerely-media-toN1mQ33Gkw-unsplash.jpg" alt="">
+                <h3>My Knowledge</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quae eos illo numquam a unde, impedit
+                    voluptate consequuntur iste libero provident tempora accusamus laborum harum placeat beatae
+                    voluptatem velit architecto!</p>
+            </div>
+            <div class="blog-col">
+                <img src="images/pexels-julien-brion-102061.jpg" alt="">
+                <h3>My Knowledge</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quae eos illo numquam a unde, impedit
+                    voluptate consequuntur iste libero provident tempora accusamus laborum harum placeat beatae
+                    voluptatem velit architecto!</p>
+            </div>
+        </div>
+    </section>
+
+<section class="footer">
+    <h4>Visit</h4>
+  
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i> by Eleonore Petersson</p>
+</section>
+
+    <!-- JAVASCRIPT TOOGLE MENU -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
